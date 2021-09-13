@@ -21,7 +21,7 @@ class Home extends StatelessWidget {
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.tealAccent,
+        backgroundColor: Colors.amber,
         elevation: 0
 
       ),
