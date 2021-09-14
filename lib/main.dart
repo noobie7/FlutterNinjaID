@@ -109,7 +109,7 @@ class Home extends StatelessWidget {
                                               color: Colors.amberAccent[100],
                                               fontFamily: 'MajorMono',
                                               letterSpacing: 2,
-                                              fontSize: 15
+                                              fontSize: 12
                                           ),
                                         )
                                       ]
@@ -119,14 +119,17 @@ class Home extends StatelessWidget {
                             ),
                             VerticalDivider(
                               color: Colors.grey[100],
-                              endIndent: 500,
+                              endIndent: 465,
                               indent: 35,
+                            ),
+                            SizedBox(
+                              width: 10,
                             ),
                             Padding(
                               padding: EdgeInsets.fromLTRB(5, 30, 10, 30),
                               child: CircleAvatar(
                                 backgroundImage: AssetImage('assets/index.jpg'),
-                                radius: 50,
+                                radius: 60,
                               ),
                             )
                         ],
