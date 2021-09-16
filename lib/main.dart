@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
           ),
         ),
         centerTitle: true,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.amberAccent,
         elevation: 0
 
       ),
@@ -37,9 +37,10 @@ class _HomeState extends State<Home> {
             _ninjaLevel++;
           });
         },
+        backgroundColor: Colors.amberAccent,
         child: Icon(
           Icons.add,
-          color : Colors.deepPurpleAccent,
+          color : Colors.indigo,
           size : 30
         ),
       ),
