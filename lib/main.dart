@@ -10,12 +10,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple,
+      backgroundColor: Colors.indigoAccent,
       appBar: AppBar(
         title : Text(
             'Ninja ID Card',
           style: TextStyle(
-            color : Colors.deepPurpleAccent[200],
+            color : Colors.indigoAccent,
             fontSize: 25,
             fontFamily: 'MajorMono'
           ),
